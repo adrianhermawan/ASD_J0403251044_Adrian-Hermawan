@@ -1,0 +1,10 @@
+J001,Adrian,99
+J002,Budi,97
+J003,Cantika,87
+J004,Derren,76
+J005,Epul,90
+J006,Fuad,89
+J007,Garit,13
+J008,Husen,57
+J009,Ipin,76
+J010,Jowi,89
