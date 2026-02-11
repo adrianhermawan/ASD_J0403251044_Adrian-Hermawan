@@ -1,7 +1,3 @@
-from calendar import c
-from operator import truediv
-
-
 class Node:
     def __init__(self,data):
         self.data = data
@@ -70,3 +66,4 @@ key = int(input("Masukkan elemen yang ingin dicari: "))
 #cll.display()
 
 cll.search(key)
+
