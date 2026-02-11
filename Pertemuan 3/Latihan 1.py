@@ -1,6 +1,3 @@
-from tkinter import NO
-
-
 class Node:
     def __init__(self,data):
         self.data = data
@@ -55,4 +52,5 @@ ll.insert_at_end(66)
 ll.display()
 
 ll.delete_node(23)
+
 ll.display()
