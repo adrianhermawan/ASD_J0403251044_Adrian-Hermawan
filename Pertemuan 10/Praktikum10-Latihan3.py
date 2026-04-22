@@ -88,3 +88,15 @@ print("\nPreorder sesudah rotasi kiri:")
 preorder(root) 
 print("\n\nStruktur sesudah rotasi kiri:") 
 tampil_struktur(root)
+
+#====================Penjelasan=========================
+# Tree awal tidak seimbang, condong ke kanan karena inputnya menaik berurutan
+# Akibatnya, performa pencarian menjadi lebih lambat (seperti linked list)
+
+# Rotasi kiri digunakan untuk menyeimbangkan tree
+# Node 20 naik menjadi root baru, 10 menjadi child kiri
+# Node 30 tetap jadi child kanan
+
+#BST tidak selalu seimbang, tergantung urutan input
+# Rotasi kiri/kanan dapat digunakan untuk menyeimbangkan tree
+# Tree yang condong ke kanan/kiri membuat performa menurun (O(n)).
