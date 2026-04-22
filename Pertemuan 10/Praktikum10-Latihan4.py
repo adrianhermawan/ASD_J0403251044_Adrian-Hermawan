@@ -55,7 +55,7 @@ def tampil_struktur(root, level=0, posisi="Root"):
         tampil_struktur(root.right, level + 1, "R") 
 
 
-# Fungsi rotasi kiri 
+# Fungsi rotasi kanan 
 def rotate_right(x): 
     # x adalah root lama 
     y = x.left       # y adalah child kiri x 
@@ -88,3 +88,13 @@ print("\nPreorder sesudah rotasi kanan:")
 preorder(root) 
 print("\n\nStruktur sesudah rotasi kanan:") 
 tampil_struktur(root)
+
+#====================Penjelasan=========================
+# Tree awal tidak seimbang, condong ke kiri karena inputnya menurun
+# Akibatnya, performa pencarian menjadi lebih lambat O(n)
+
+# Rotasi kanan digunakan untuk menyeimbangkan tree
+# Node 20 naik menjadi root baru, 30 turun menjadi child right
+
+#BST tidak selalu seimbang, tergantung urutan input
+# Rotasi kiri/kanan dapat digunakan untuk menyeimbangkan tree
