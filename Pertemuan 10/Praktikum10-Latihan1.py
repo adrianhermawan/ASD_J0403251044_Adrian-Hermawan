@@ -81,4 +81,22 @@ key = 40
 if search (root,key):
     print("Data ditemukan")
 else:
-    print("Data ditemukan")
+    print("Data tidak ditemukan")
+
+#==============================PENJELASAN=========================================================
+# BST (Binary Search Tree) adalah struktur data, dimana:
+# Node kiri lebih kecil dari root
+# Node kanan lebih besar dari root
+
+# Pada file ini, data dimasukkan secara acak sehingga tree cukup seimbang.
+# Traversal inorder menghasilkan data terurut (ascending), karena dimulai dari kiri, root, kanan. 
+
+# Fungsi search bekerja dengan cara:
+# Membandingkan nilai dengan root
+# Jika lebih kecil ke kiri, jika lebih besar ke kanan
+# Proses berulang sampai ditemukan atau tidak ada node
+
+# BST mempermudah pencarian data dibanding list biasa
+# Kompleksitas pencarian bisa O(log n) jika seimbang
+# Namun BST tidak selalu seimbang, tergantung urutan input
+#=======================================================================================
