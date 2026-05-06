@@ -53,3 +53,15 @@ for lokasi, jarak in hasil.items():
     print(lokasi, "=", jarak, "Jam") 
 
 
+# Jawaban Analisis:
+# 1. Node awal yang digunakan apa?
+# 2. Node mana yang memiliki jarak paling kecil dari node awal?
+# 3. Node mana yang memiliki jarak paling besar dari node awal?
+# 4. Jelaskan bagaimana algoritma Dijkstra bekerja pada kasus yang anda buat.
+
+# 1. Bogor
+# 2. Depok dengan jarak 2 dari Bogor
+# 3. Bandung melalui Jakarta dengan jarak 12
+# 4. Dijkstra bekerja dengan memilih node dengan jarak paling kecil dari node awal
+# lalu memperbarui jarak ke tetangganya
+# Proses ini diulang sampai semua node mendapat jarak terpendek.
